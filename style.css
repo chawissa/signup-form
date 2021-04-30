@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  padding: 5rem;
+  padding: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,18 @@ body {
 } */
 
 .intro {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .intro-form {
@@ -40,23 +51,41 @@ body {
   flex-direction: column;
 }
 
+.intro:last-of-type {
+  margin-left: 5rem;
+}
+
 .signup-form {
-  height: 45rem;
+  height: 38rem;
   background-color: #fff;
   padding: 3rem;
-  margin-top: 1.4rem;
+  margin-top: 2rem;
   border-radius: 0.8rem;
+  box-shadow: 0 0.8rem 0.1rem rgba(0, 0, 0, 0.2);
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  /* align-content: center; */
 }
 
 .input-field {
   width: 100%;
   padding: 1.3rem;
-  margin: 5px 0 1rem 0;
-  border: 1px solid var(--color-grayish-blue);
+  margin: 1rem 0 1rem 0;
+  /* border: 0.1px solid #777; */
+  border: none;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.6);
   border-radius: 0.4rem;
+  font-size: 1.6rem;
+}
+
+.signup-bold {
+  font-weight: 700;
+}
+
+.signup-thin {
+  font-weight: 400;
 }
 
 .btn {
@@ -66,20 +95,26 @@ body {
   border: none;
   width: 100%;
   cursor: pointer;
+  font-size: 1.6rem;
 }
 
 .btn-purple {
   background-color: var(--color-accent-blue);
   border-radius: 0.8rem;
+  box-shadow: 0 0.8rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
 .btn-green {
   background-color: var(--color-primary-green);
   border-radius: 0.4rem;
+  margin-bottom: 1.3rem;
+  text-transform: uppercase;
+  box-shadow: 0 0.4rem 0.1rem hsl(154, 58%, 37%);
 }
 
 .agreement {
   font-size: 0.8rem;
+  text-align: center;
 }
 
 .agreement-gray {
@@ -96,4 +131,33 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 100%;
+  }
 }
