@@ -16,11 +16,49 @@ html,
 body {
   font-family: Poppins, sans-serif;
   font-size: 62.5%;
+  color: #fff;
   background-color: var(--color-primary-red);
 }
 
-.container {
+.container-outer {
+  padding: 10rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .container-inner {
+  padding: 10rem;
+} */
+
+.intro {
+  flex: 0 0 45%;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 0.8rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22 px 0;
+  display: inline-block;
+}
+
+.agreement {
+  font-size: 0.8rem;
+}
+
+.agreement-gray {
+}
+
+.agreement-red {
+  color: var(--color-primary-red);
 }
 
 .attribution {

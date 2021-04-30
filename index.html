@@ -19,17 +19,17 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
-    <div class="container">
-      <div>
-        <h1>Learn to code by watching others</h1>
+    <div class="container-outer">
+      <!-- <div class="container-inner"> -->
+      <div class="intro">
+        <h1><span>Learn to code by </span>watching others</h1>
         <p>
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
           invaluable.
         </p>
       </div>
-
-      <section>
+      <div class="intro">
         <div>
           <a href="#" class="btn btn-purple">
             <span>Try it free 7 days </span>
@@ -37,7 +37,7 @@
           >
         </div>
 
-        <div>
+        <div class="signup-form">
           <div>
             <input
               type="text"
@@ -70,7 +70,7 @@
 
           <div>
             <input
-              type="email"
+              type="password"
               name="password"
               id="password"
               placeholder="Password"
@@ -82,11 +82,14 @@
             <a href="#" class="btn btn-green">Claim your free trial </a>
           </div>
 
-          <div>
-            By clicking the button, you are agreeing to our Terms and Services
+          <div class="agreement">
+            <span class="agreement-gray"
+              >By clicking the button, you are agreeing to our </span
+            ><span class="agreement-red">Terms and Services</span>
           </div>
         </div>
-      </section>
+      </div>
+      <!-- </div> -->
     </div>
 
     <footer>
