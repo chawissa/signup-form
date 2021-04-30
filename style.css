@@ -20,8 +20,8 @@ body {
   background-color: var(--color-primary-red);
 }
 
-.container-outer {
-  padding: 10rem;
+.container {
+  padding: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,22 +32,50 @@ body {
 } */
 
 .intro {
-  flex: 0 0 45%;
+  flex: 0 0 40%;
+}
+
+.intro-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .signup-form {
+  height: 45rem;
   background-color: #fff;
   padding: 3rem;
+  margin-top: 1.4rem;
+  border-radius: 0.8rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  width: 100%;
+  padding: 1.3rem;
+  margin: 5px 0 1rem 0;
+  border: 1px solid var(--color-grayish-blue);
+  border-radius: 0.4rem;
+}
+
+.btn {
+  color: #fff;
+  padding: 1.3rem 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-purple {
+  background-color: var(--color-accent-blue);
   border-radius: 0.8rem;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22 px 0;
-  display: inline-block;
+.btn-green {
+  background-color: var(--color-primary-green);
+  border-radius: 0.4rem;
 }
 
 .agreement {
@@ -55,6 +83,7 @@ input[type="password"] {
 }
 
 .agreement-gray {
+  color: var(--color-grayish-blue);
 }
 
 .agreement-red {

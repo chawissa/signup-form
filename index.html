@@ -19,8 +19,7 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
-    <div class="container-outer">
-      <!-- <div class="container-inner"> -->
+    <div class="container">
       <div class="intro">
         <h1><span>Learn to code by </span>watching others</h1>
         <p>
@@ -29,21 +28,20 @@
           invaluable.
         </p>
       </div>
-      <div class="intro">
+      <div class="intro intro-form">
         <div>
-          <a href="#" class="btn btn-purple">
+          <button class="btn btn-purple">
             <span>Try it free 7 days </span>
-            <span>then $20/mo thereafter</span></a
-          >
+            <span>then $20/mo thereafter</span>
+          </button>
         </div>
 
         <div class="signup-form">
           <div>
             <input
               type="text"
-              name="first-name"
-              id="first-name"
               placeholder="First Name"
+              class="input-field"
               required
             />
           </div>
@@ -51,9 +49,8 @@
           <div>
             <input
               type="text"
-              name="last-name"
-              id="last0name"
               placeholder="Last Name"
+              class="input-field"
               required
             />
           </div>
@@ -61,9 +58,8 @@
           <div>
             <input
               type="email"
-              name="email"
-              id="email"
               placeholder="Email Address"
+              class="input-field"
               required
             />
           </div>
@@ -71,15 +67,14 @@
           <div>
             <input
               type="password"
-              name="password"
-              id="password"
               placeholder="Password"
+              class="input-field"
               required
             />
           </div>
 
           <div>
-            <a href="#" class="btn btn-green">Claim your free trial </a>
+            <button class="btn btn-green">Claim your free trial</button>
           </div>
 
           <div class="agreement">
@@ -89,7 +84,6 @@
           </div>
         </div>
       </div>
-      <!-- </div> -->
     </div>
 
     <footer>
