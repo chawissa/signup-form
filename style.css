@@ -12,25 +12,6 @@
   box-sizing: border-box;
 }
 
-.error-message,
-.error-icon {
-  display: none;
-}
-
-/* .input-field.error .error-message,
-.input-field.error .error-icon {
-  display: block;
-} */
-
-.error .error-message,
-.error .error-icon {
-  display: block;
-}
-
-.input-field.error input {
-  border: 2px solid var(--color-primary-red);
-}
-
 html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
@@ -167,6 +148,21 @@ button[type="submit"]:hover {
   font-weight: 700;
 }
 
+/* --------- ERROR --------- */
+.error-message,
+.error-icon {
+  display: none;
+}
+
+.error .error-message,
+.error .error-icon {
+  display: block;
+}
+
+.input-field.error input {
+  border: 2px solid var(--color-primary-red);
+}
+
 .error-icon {
   position: absolute;
   top: 28%;
@@ -180,6 +176,8 @@ button[type="submit"]:hover {
   font-style: italic;
   color: var(--color-primary-red);
 }
+
+/* --------- RESPONSIVE - DESKTOP --------- */
 
 @media only screen and (min-width: 1000px) {
   #intro {
