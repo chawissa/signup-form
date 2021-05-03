@@ -69,7 +69,7 @@ I want to become more familiar with Sass as well.
 - Website - [Charissa D. Ramirez](https://www.linkedin.com/in/chawissa)
 - Frontend Mentor - [@chawissa](https://www.frontendmentor.io/profile/chawissa)
 - Twitter - [@chawissa](https://www.twitter.com/chawissa)
-- Instagram - [@chawissa] (https://www.instagram.com/chawissa/)
+- Instagram - [@chawissa](https://www.instagram.com/chawissa/)
 
 ## Acknowledgments
 
